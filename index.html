@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Chicken Hub - Login/Signup</title>
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Poppins">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
+  <link rel="stylesheet" href="login.css">
+</head>
+<body>
+  <div class="container">
+    <div class="form-box">
+      <h1 class="title" id="form-title">Sign In</h1>
+      <div class="underline"></div>
+      <form>
+        <div class="input-group">
+          <div class="input-field namefield" id="nameField">
+            <i class="fa-solid fa-user-graduate"></i>
+            <input type="text" placeholder="Name" id="name">
+          </div>
+
+          <div class="input-field">
+            <i class="fa-solid fa-at"></i>
+            <input type="email" placeholder="Email" id="email" required>
+          </div>
+
+          <div class="input-field">
+            <i class="fa-solid fa-key"></i>
+            <input type="password" placeholder="Password" id="password" required>
+          </div>
+        </div>
+
+        <p><span id="toggleText">Don't have an account?</span> <a href="#" id="toggleBtn">Sign Up</a></p>
+
+        <div class="btn-field">
+          <button type="button" class="signinbtn" id="mainBtn">Sign In</button>
+        </div>
+      </form>
+    </div>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
